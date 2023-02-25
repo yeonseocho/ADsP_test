@@ -10,3 +10,4 @@ install.packages("klaR")
 iris2 <-iris[,c(1,3,5)]
 plineplot(Species~., data=iris2, method="lda", x=iris[ ,4], xlab="Petal.Width")
 
+ 
