@@ -20,3 +20,8 @@ median(sp[[1]])
 ## vec <-saplly(l, func)
 
 #행렬에 함수 적용
+## m <-apply(mat, 1, func)
+
+#날짜 변환
+Sys.Date()
+as.Date()
