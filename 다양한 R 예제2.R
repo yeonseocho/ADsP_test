@@ -1,0 +1,5 @@
+head(airquality)
+melt(airquality, id=c("Month", "Day"), na.rm=T)
+library(melt)
+install.packages("melt")
+library(melt)
